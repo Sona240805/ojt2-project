@@ -15,7 +15,7 @@ const CoursesPage = () => {
                 
                 <div className="video-container">
                     <video width="100%" height="400" controls>
-                    <source src="./public/Videos/college-tour-FAmcnyfF(1).mp4" type="video/mp4"/></video>
+                    <source src="/Videos/work.mp4" type="video/mp4" controls/></video>
                     <p className="video-caption">Get a glimpse of the vibrant academic and social life at Vivekanand College.</p>
                     <hr/>
                 </div>
@@ -49,7 +49,6 @@ const CoursesPage = () => {
                     <li>Master of Commerce (M.Com) (2 years)</li>
                     <li>Master of Arts (M.A.) (2 years)</li>
                 </ul>
-                <h2>Program Details & Fee Structure (Annual)</h2>
                 <h2>Program Details & Fee Structure (Annual)</h2>
 <table className="program-table">
   <thead>

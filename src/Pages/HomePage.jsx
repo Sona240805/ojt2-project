@@ -9,7 +9,12 @@ const HomePage = () => {
                 <Header/>
                 <div className="page-container">
                     <div className="picture">
-                        <img src="./public/Images/college-banner-Cz0xylpt.png"></img>
+                        <img src="Images/college-banner-Cz0xylpt.png" width="100%" height="400px"></img>
+                        <div className="font-image">
+                            <h1>Welcome to Vivekanand College!</h1>
+                            <p className="journey">Your journey to excellence starts here.</p>
+                            <a className="btn" href="./addmiddionpage">Apply now</a>
+                        </div>
                     </div>
                 <p>**Vivekanand College is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in [Year of Establishment, e.g., 1980], we have proudly served generations of students, empowering them to achieve their full potential.</p>
       <p>At Vivekanand College, we believe in a vibrant learning environment that extends beyond textbooks. Our state-of-the-art facilities, experienced faculty, and diverse student community create a unique ecosystem where curiosity thrives and future leaders are shaped.</p>
@@ -25,13 +30,15 @@ const HomePage = () => {
         </ul>
         <h2>Campus Life & Facilities</h2>
         <div className="gallery">
-         <img src="./public/Images/student-studying-DbLGuwF_.jpeg" width="40%" height="200px"></img>
-         <img src="./public/Images/campus-life-Crkero7B.jpg" width="40%" height="200px"></img>
+            <img src="/Images/colleg.jpeg" width="40%" height="200px"></img>
+         <img src="/Images/campus-life-Crkero7B.jpg" width="40%" height="200px"></img>
          </div>
-        <p>Ready to explor our courses?</p>
-    
-
-            </div>
+         <div className="wo">
+            <p>Ready to explor our courses?</p>
+            <a className="btn" href="./coursespage">Explore courses</a>
+         </div>
+         
+         </div>
             <Footer/>
                 
         </div>

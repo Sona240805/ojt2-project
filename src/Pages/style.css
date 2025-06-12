@@ -124,3 +124,19 @@ body{
     font-size: 2.5em;
 }
 
+.font-image{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  text-align: center;
+  width: 90%;
+  display: block;
+  unicode-bidi: isolate;
+  
+}
+
+.wo{
+  text-align: center;
+}

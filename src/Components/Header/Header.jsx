@@ -5,9 +5,10 @@ import './Header.css'
 const Header = () => {
     return(
         <div>
-            <header>
+            <header className="navbar">
+                <Link to="/" className="nv-item">vivekanand college</Link>
         <nav className="right-side">
-                    <Link to="/homepage" className="nav-item">Home</Link>
+                    <Link to="/" className="nav-item">Home</Link>
                     <Link to="/aboutpage" className="nav-item">About</Link>
                     <Link to="/coursespage" className="nav-item">Courses</Link>
                     <Link to="/contactpage" className="nav-item">Contact</Link>
