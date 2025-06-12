@@ -10,9 +10,11 @@ const HomePage = () => {
                 <div className="page-container">
                     <div className="picture">
                         <img src="Images/college-banner-Cz0xylpt.png" width="100%" height="400px"></img>
+
                         <div className="font-image">
+
                             <h1>Welcome to Vivekanand College!</h1>
-                            <p className="journey">Your journey to excellence starts here.</p>
+                            <h4>Your journey to excellence starts here.</h4>
                             <a className="btn" href="./addmiddionpage">Apply now</a>
                         </div>
                     </div>
