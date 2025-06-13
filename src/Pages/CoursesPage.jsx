@@ -88,7 +88,7 @@ const CoursesPage = () => {
      <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p>
      <div className="prn">
      <p>Have questions about a specific course?</p>
-        <a className="btn" href="./contactpage">Inquire about course</a>
+        <a  href="./contactpage" className="btn">Inquire about course</a>
      </div>
      </div>
         <Footer/>
