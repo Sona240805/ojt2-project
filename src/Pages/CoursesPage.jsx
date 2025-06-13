@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
 import './style.css'
+import { Link } from "react-router-dom";
 
 const CoursesPage = () => {
     return(

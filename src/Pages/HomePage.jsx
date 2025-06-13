@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
 import './style.css'
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
     return(
@@ -9,13 +10,13 @@ const HomePage = () => {
                 <Header/>
                 <div className="page-container">
                     <div className="picture">
-                        <img src="Images/college-banner-Cz0xylpt.png" width="100%" height="400px"></img>
+                        <img src="Images/college-banner-Cz0xylpt.png" width="100%" height="400px" id="hero-banner-image"></img>
 
                         <div className="font-image">
 
                             <h1>Welcome to Vivekanand College!</h1>
-                            <h4>Your journey to excellence starts here.</h4>
-                            <Link to="addmissionpage" className="btn">Apply now</Link>
+                            <p>Your journey to excellence starts here.</p>
+                            <Link to="/addmissionpage" className="btn">Apply now</Link>
                         </div>
                     </div>
                 <p>**Vivekanand College is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in [Year of Establishment, e.g., 1980], we have proudly served generations of students, empowering them to achieve their full potential.</p>
@@ -38,7 +39,7 @@ const HomePage = () => {
          </div>
          <div className="wo">
             <p>Ready to explor our courses?</p>
-            <Link to="coursespage" className="btn">Explore courses</Link>
+            <Link to="/coursespage" className="btn">Explore courses</Link>
          </div>
          
          </div>
